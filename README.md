@@ -33,3 +33,12 @@ This will open up `localhost:3000` in your web browser.
 ## Getting Help
 
 For any issues or problems concerning the course content, please refer to the [Odyssey topic in our community forums](https://community.apollographql.com/tags/c/help/6/odyssey).
+
+
+## Toby's Notes
+
+### Mutations
+1 - To modify data, we need to use another type of GraphQL operation: mutations, which are write operations.
+2 - syntax: It follows the same syntax as the schema definition language, or SDL, that we've been using so far.
+3 - modify multiple objects (for example 2 objects, SpaceCat and Mission): We'll want to return both, because our client might need both. In addition,  we shall also return 3 common fields (code: int, success: boolean, message: str)
+![](doodle_mutation_response_lmff1v.png)
